@@ -200,12 +200,10 @@ The application expects a JSON Lines file containing one JSON object per line.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gpu-song-recommendation-system.git
+git clone https://github.com/ruisun0613/gpu-song-recommendation-system.git
 
 cd gpu-song-recommendation-system
 ```
-
-Replace `YOUR_USERNAME` with the appropriate GitHub username.
 
 ### 2. Create a Virtual Environment
 
