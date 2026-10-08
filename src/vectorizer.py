@@ -21,7 +21,7 @@ def create_tfidf_tensor(selected_songs: pd.DataFrame) -> torch.Tensor:
     if device == "cuda":
         X = X.to(device)
         X = F.normalize(X, p = 2, dim = 1)
-        X = X.half      # reduce VRAM usage
+        X = X.half()      # reduce VRAM usage
     else:
         X = X.to(device)
         X = F.normalize(X, p = 2, dim = 1)

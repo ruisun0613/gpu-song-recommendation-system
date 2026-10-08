@@ -1,10 +1,10 @@
 .venv/
-venv/
-.vscode/
 __pycache__/
 *.pyc
+.vscode/
 
+# Dataset and generated results
 dataset/
-outputs/
-
-Rui_songs_recommender.py
+# Ignore generated files except the recommendation CSV
+outputs/*
+!outputs/song_recommendations.csv
